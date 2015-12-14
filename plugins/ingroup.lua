@@ -60,7 +60,7 @@ end
 
 local function set_descriptionmod(msg, data, target, about)
   if not is_momod(msg) then
-    return "مگه مدیری دست میزنی  =|""
+    return "مگه مدیری دست میزنی  =|"
   end
   local data_cat = 'description'
   data[tostring(target)][data_cat] = about
